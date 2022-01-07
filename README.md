@@ -5,6 +5,10 @@ URL of the application: https://gismat.alwaysdata.net/back_end/crowdfunding/logi
 This project is made for investing the projects as called the CrowdFunding. There are numerous users, 
 where some of them are project owners and investors and others just as investors.
 
+NOTE:
+All the database connections are local, to execute the application correctly download the crowdfunding database.
+All queries are in MySQL format.
+
 Overview of the project:
 In the project PHP,MySQL,HTML,CSS,BOOTSTRAP5,JS,JQUERY,CanvasJS are used. The database are connected to 
 phpmyadmin-mysql (gismat.alwaysdata.net). For the front part html, css and bootstrap classes and for the visualization 
