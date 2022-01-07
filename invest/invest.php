@@ -167,7 +167,7 @@
  	<footer class="bg-light text-center text-lg-start">
 	  <!-- Copyright -->
 	  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-	   © Gismat Salimov && Mirali Rahimov:
+	   © Gismat Salimov:
 	    <a class="text-dark" href="../main.php">Crowd Funding</a>
 	  </div>
 	  <!-- Copyright -->
