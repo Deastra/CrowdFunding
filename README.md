@@ -1,15 +1,13 @@
-Crowd Funding Web Application
+# Crowd Funding Web Application
 
-URL of the application: https://gismat.alwaysdata.net/back_end/crowdfunding/login.php
+## URL of the application: https://gismat.alwaysdata.net/back_end/crowdfunding/login.php
 
-This project is made for investing the projects as called the CrowdFunding. There are numerous users, 
-where some of them are project owners and investors and others just as investors.
+### This project is made for investing the projects as called the CrowdFunding. There are numerous users, where some of them are project owners and investors and others just as investors.
 
-NOTE:
-All the database connections are local, to execute the application correctly download the crowdfunding database.
-All queries are in MySQL format.
-
-Overview of the project:
+#### NOTE:
+##### All the database connections are local, to execute the application correctly download the crowdfunding database. All queries are in MySQL format. As the db pre-formatted, there can not be inserted any new user or project. For signing in user details from db need to be used.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Overview of the Project
 In the project PHP,MySQL,HTML,CSS,BOOTSTRAP5,JS,JQUERY,CanvasJS are used. The database are connected to 
 phpmyadmin-mysql (gismat.alwaysdata.net). For the front part html, css and bootstrap classes and for the visualization 
 of statistical graphs js-canvasjs are used. These graphs has animation effects.
@@ -35,7 +33,7 @@ of the requested and invested funds. In the table of projects, in front of the e
 which leads to the page where all the investors to that project, details of their investment are shown and in the pie-chart below 
 investment share of the investors are described.
 
-SECURITY:
+### Security
 As the endpoints in hyperlinks are used for invest, details and my_projects page, these endpoints can be misused.
 For example, owner can donate to his own project by changing the id in the end of the link, 
 of investor can donate to one project twice by doing the same procedure.
