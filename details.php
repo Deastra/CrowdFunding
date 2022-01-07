@@ -3,11 +3,11 @@
  ?>
 
 <?php  
-	ini_set('display_errors', 1);
-	$servername = "mysql-gismat.alwaysdata.net";
-	$username = "gismat";
-	$password = "deastra333";
-	$dbname = "gismat_crowd";
+	ini_set('display_errors', 0);
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "crowd";
 
 	$link=mysqli_connect($servername,$username,$password,$dbname);	
 
