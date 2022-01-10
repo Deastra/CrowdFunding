@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION["email"])) {
-        header("Location: https://gismat.alwaysdata.net/back_end/crowdfunding/login.php");
+        header("Location: login.php"); // Should be the link of the login page!!! (with https://link, not the local!!)
         exit();
     }
 ?>
